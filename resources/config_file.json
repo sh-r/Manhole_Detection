@@ -1,0 +1,35 @@
+{
+    "Records": [
+        {
+            "keywords": "manhole",
+            "usage_rights":"labeled-for-reuse-with-modifications",
+            "limit": 20,
+            "format":"jpg",
+            "print_urls": true
+        },
+        {
+            "keywords": "manhole",
+            "prefix_keywords":"open",
+            "limit": 15,
+            "usage_rights":"labeled-for-reuse-with-modifications",
+            "format":"jpg",
+            "print_urls": true
+        },
+        {
+            "keywords": "manhole",
+            "prefix_keywords":"closed",
+            "limit": 15,
+            "usage_rights":"labeled-for-reuse-with-modifications",
+            "format":"jpg",
+            "print_urls": true
+        },
+        {
+            "keywords": "manhole",
+            "suffix_keywords":"on road",
+            "limit": 15,
+            "usage_rights":"labeled-for-reuse-with-modifications",
+            "format":"jpg",
+            "print_urls": true
+        }
+    ]
+}
