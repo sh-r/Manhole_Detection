@@ -1,4 +1,4 @@
-# Manhole_Detection
+# Manhole Detection
 
 In this project we focused on manhole detection for self-driving vehicles. The dataset collected from various sources is minimal, with only 1032 images and annotations.
 
@@ -11,5 +11,8 @@ In this project we focused on manhole detection for self-driving vehicles. The d
 
 There is also a script for detection of size of the hole in a broken/open manhole with respect to the size of the manhole.
 If the size of the hole is greater than 50% of the manhole size, the hole is recorded as an important one in need of fixing.
+
+If you find this work useful, please consider citing:
+
 
 
