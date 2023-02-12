@@ -22,7 +22,7 @@ args = vars(ap.parse_args())
 
 # load the image, convert it to grayscale, and blur it slightly
 image = cv2.imread(args["image"])
-height, width, channels = image.shape 
+#height, width, channels = image.shape 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 #kernel size only odd
 gray = cv2.GaussianBlur(gray, (11, 11), 0)
@@ -143,14 +143,6 @@ for c in cnts:
 
     if (count>=1):
         print("This manhole needs to be fixed immediately")
-
-    # draw the object sizes on the image
-    cv2.putText(orig, "{:.1f}in".format(dimA1),
-        (int(tltrX - 15), int(tltrY - 10)), cv2.FONT_HERSHEY_SIMPLEX,
-        0.65, (255, 255, 255), 2)
-    cv2.putText(orig, "{:.1f}in".format(dimB1),
-        (int(trbrX + 10), int(trbrY)), cv2.FONT_HERSHEY_SIMPLEX,
-        0.65, (255, 255, 255), 2)
 
     # show the output image
     cv2.imshow("Image", orig)
